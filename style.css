@@ -1,0 +1,121 @@
+#logo {
+  background-image: url('./optimized/bent-creek-logo.png');
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+}
+body {
+  margin: 0;
+
+}
+header {
+  display: flex;
+  font-family: 'roboto', sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1.0);
+  padding: 10px;
+
+
+}
+#nav {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+
+}
+#nav li {
+  list-style: none;
+  margin: 0 auto;
+  padding-right: 40px;
+
+}
+#nav a {
+  color: rgba(60, 63, 57, 1.0);
+
+
+}
+main {
+  background-color: rgba(240, 239, 229, 1.0);
+  padding: 20px;
+
+}
+#page-title{
+  text-align: center;
+
+}
+#page-title h1 {
+  margin: 0;
+  text-align: center;
+
+}
+#top-gallery, #bottom-gallery {
+  display: flex;
+
+}
+#image1, #image2, #image3 {
+  height: 400px;
+  margin: 10px;
+  background-size: cover;
+  position: relative;
+
+
+}
+#image4, #image5, #image6, #image7 {
+  height: 240px;
+  margin: 10px;
+background-size: cover;
+position: relative;
+
+}
+#image1 {
+  background-image: url('./optimized/product-1.jpg');
+  width: 60%;
+
+}
+#image2 {
+  background-image: url('./optimized/product-2.jpg');
+  width: 20%;
+
+}
+#image3 {
+  background-image: url('./optimized/product-3.jpg');
+  width: 20%;
+
+}
+#image4 {
+  background-image: url('./optimized/product-4.jpg');
+width: 20%;
+
+}
+#image5 {
+  background-image: url('./optimized/product-5.jpg');
+  width: 20%;
+
+}
+#image6 {
+  background-image: url('./optimized/product-6.jpg');
+  width: 40%;
+
+}
+#image7{
+  background-image:url('./optimized/product-7.jpg');
+  width: 20%;
+
+}
+#gallery p {
+  background-color: rgba(38, 41, 34, 1.0);
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 10px;
+}
+footer {
+  background-color: rgba(38, 41, 34, 1.0);
+  padding: 40px;
+  color: white;
+
+}
+footer p {
+  margin: 0;
+
+}

@@ -1,0 +1,40 @@
+#logo {
+  background-image: url('./optimized/bent-creek-logo.png');
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+}
+body {
+  margin: 0 auto;
+
+
+}
+header {
+  display: flex;
+  font-family: 'roboto', sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1.0);
+  padding: 10px;
+
+
+}
+#nav {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+
+}
+#nav li {
+  list-style: none;
+  margin: 0 auto;
+  padding-right: 40px;
+
+}
+#nav a {
+  color: rgba(60, 63, 57, 1.0);
+}
+#main-section {
+  background-image: url('/optimized/background-2.jpg');
+  background-size: 100%;
+  width: 
+}
